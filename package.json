@@ -11,9 +11,23 @@
     "standard": "4.5.4"
   },
   "license": "MIT",
-  "description": "queneau ----------------",
+  "description": "node.js implementation of Leonard Richardson's Queneau Assembly buckets algorithm",
   "author": "Cole Willsea <coleww@gmail.com> (http://colewillsea.com/)",
   "dependencies": {
     "pick-random": "^1.0.1"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/coleww/queneau-buckets.git"
+  },
+  "keywords": [
+    "queneau",
+    "poetry",
+    "text",
+    "generation"
+  ],
+  "bugs": {
+    "url": "https://github.com/coleww/queneau-buckets/issues"
+  },
+  "homepage": "https://github.com/coleww/queneau-buckets#readme"
 }
