@@ -1,5 +1,5 @@
 {
-  "name": "queneau",
+  "name": "queneau-buckets",
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
@@ -12,5 +12,8 @@
   },
   "license": "MIT",
   "description": "queneau ----------------",
-  "author": "Cole Willsea <coleww@gmail.com> (http://colewillsea.com/)"
+  "author": "Cole Willsea <coleww@gmail.com> (http://colewillsea.com/)",
+  "dependencies": {
+    "pick-random": "^1.0.1"
+  }
 }
