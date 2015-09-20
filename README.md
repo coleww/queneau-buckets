@@ -14,9 +14,9 @@ Also keep track of how text lengths are distributed: how likely it is that a tex
 Now you're ready to assemble. Pick a length for your new text that reflects the length distribution of the existing texts. Then pick a chunk from the "first" bucket. If your target length is greater than 1, pick a chunk from the "last" bucket". If your target length is greater than 2, pick chunks from the "middle" bucket intil you've got enough. Concatenate the chunks first-middle-last, and you've got a Queneau assembly!
 ```
 
-[![NPM](https://nodei.co/npm/queneau.png)](https://nodei.co/npm/queneau/)
+[![NPM](https://nodei.co/npm/queneau-buckets.png)](https://nodei.co/npm/queneau-buckets/)
 [![js-standard-style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg?style=flat)](https://github.com/feross/standard)
-[![Build Status](https://secure.travis-ci.org/coleww/queneau.png)](http://travis-ci.org/coleww/queneau)
+[![Build Status](https://secure.travis-ci.org/coleww/queneau-buckets.png)](http://travis-ci.org/coleww/queneau-buckets)
 
 ### EXAMPLE
 
