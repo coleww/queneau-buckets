@@ -12,9 +12,9 @@ module.exports = function () {
         // put the first word in a bucket
         that.a.push(ws.shift())
         // last word in c bucket
-        that.c.push(ws.pop())
+        if (ws.length) that.c.push(ws.pop())
         // and everything else in the b bucket.
-        that.b.push(ws.join(' '))
+        if (ws.length) that.b.push(ws.join(' '))
       })
       return this
     },
