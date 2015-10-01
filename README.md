@@ -25,7 +25,7 @@ Now you're ready to assemble. Pick a length for your new text that reflects the 
   var queneauBuckets = makeQueneau()
   var lines = fs.readFileSync('./lines.txt').toString().split('\n')
   queneauBuckets.seed(lines)
-  queneauBuckets.generate(5)
+  queneauBuckets.fill(5)
   => wow wow wow ok cool! // idk this will vary i guess
 ```
 
